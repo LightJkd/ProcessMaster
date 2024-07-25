@@ -30,7 +30,6 @@ namespace ProcessManager
             this.MouseMove += Window_MouseMove;
             this.MouseLeftButtonUp += Window_MouseLeftButtonUp;
 
-            // Initialize and start the dispatcher timer for updating the process list
             _dispatcherTimer = new DispatcherTimer();
             _dispatcherTimer.Interval = TimeSpan.FromSeconds(2);
             _dispatcherTimer.Tick += DispatcherTimer_Tick;
