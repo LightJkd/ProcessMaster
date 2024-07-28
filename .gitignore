@@ -1,4 +1,3 @@
-# Visual Studio
 .vscode/
 .vs/
 *.suo
@@ -6,7 +5,6 @@
 *.userosscache
 *.sln.docstates
 
-# Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -20,31 +18,20 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-# Packages
 *.nupkg
-# The packages folder can be ignored because of NuGet restore
 **/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
 
-# Windows image file caches
 Thumbs.db
 ehthumbs.db
 
-# Folder config file
 Desktop.ini
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Build results of an ATL project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
 
-# Build results of a Visual C++ project
 ipch/
 *.aps
 *.ncb
@@ -55,10 +42,8 @@ ipch/
 *.VC.db
 *.VC.VC.opendb
 
-# VS Code directories
 .vscode/
 
-# User-specific files
 *.rsuser
 *.suo
 *.user
